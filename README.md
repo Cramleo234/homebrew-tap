@@ -20,3 +20,7 @@ brew install --cask Cramleo234/tap/updatepilot
 
 **UpdatePilot** — macOS-App für sichere Ein-Knopf-Softwareupdates.
 Quellcode: https://github.com/Cramleo234/MacUpdateButton
+
+## Lizenz
+
+Dieses Repository ist unter der [MIT](LICENSE) veröffentlicht.
