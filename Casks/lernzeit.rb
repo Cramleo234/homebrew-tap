@@ -1,6 +1,6 @@
 cask "lernzeit" do
-  version "2.0.3"
-  sha256 "2b768d13074fa38a5e430947720f4328cd5aaca1d45e9f7350a6b6a0d63394cb"
+  version "2.1.0"
+  sha256 "ef801d45c6fa6fc3faa185e01bdcf0bc8056892c525734209a2834a6af9dbdb0"
 
   url "https://github.com/Cramleo234/Lernzeit/releases/download/v#{version}/Lernzeit-#{version}.zip"
   name "Lernzeit"
