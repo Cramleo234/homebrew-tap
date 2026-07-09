@@ -2,10 +2,10 @@ cask "updatepilot" do
   version "0.0.5"
   sha256 "855afc0941937dbb3a24ba07f9e2b8e31d856bad5e25744d5f00f447b6bdfa47"
 
-  url "https://github.com/Cramleo234/MacUpdateButton/releases/download/v#{version}/UpdatePilot-#{version}.dmg"
+  url "https://github.com/Cramleo234/UpdatePilot/releases/download/v#{version}/UpdatePilot-#{version}.dmg"
   name "UpdatePilot"
   desc "macOS-App für sichere Ein-Knopf-Softwareupdates"
-  homepage "https://github.com/Cramleo234/MacUpdateButton"
+  homepage "https://github.com/Cramleo234/UpdatePilot"
 
   depends_on macos: :sonoma
 
