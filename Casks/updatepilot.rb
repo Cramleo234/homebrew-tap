@@ -1,6 +1,6 @@
 cask "updatepilot" do
-  version "0.0.2"
-  sha256 "d91b2f81819c25c59fcd82956c5030ef3c50a70ebb71e53ffef837e7a5eb808f"
+  version "0.0.3"
+  sha256 "c8f089e625b50037231579cdeef40421cfab641ab46ef6f6102cfaa491a7f540"
 
   url "https://github.com/Cramleo234/MacUpdateButton/releases/download/v#{version}/UpdatePilot-#{version}.dmg"
   name "UpdatePilot"
