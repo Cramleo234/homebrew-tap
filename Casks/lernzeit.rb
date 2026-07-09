@@ -7,7 +7,7 @@ cask "lernzeit" do
   desc "Minimalistische Lern-Timer-App für macOS mit Liquid Glass Design"
   homepage "https://github.com/Cramleo234/Lernzeit"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Lernzeit.app"
 
