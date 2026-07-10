@@ -1,6 +1,6 @@
 cask "updatepilot" do
-  version "0.1.0"
-  sha256 "22e64b4b970b55f3c63775c9744679cb0717fa2dae8a72a0a93c480583103dd6"
+  version "0.1.1"
+  sha256 "949a4aee2ecac99364919be5f9b9a88b8a42a1ff9f08307d2d0ffdac37b1cf5d"
 
   url "https://github.com/Cramleo234/UpdatePilot/releases/download/v#{version}/UpdatePilot-#{version}.dmg"
   name "UpdatePilot"
