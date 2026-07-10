@@ -4,20 +4,12 @@ cask "lernzeit" do
 
   url "https://github.com/Cramleo234/Lernzeit/releases/download/v#{version}/Lernzeit-#{version}.zip"
   name "Lernzeit"
-  desc "Minimalist study timer for macOS with a modern translucent interface"
+  desc "Minimalist study timer with a modern translucent interface"
   homepage "https://github.com/Cramleo234/Lernzeit"
 
   depends_on macos: :tahoe
 
   app "Lernzeit.app"
-
-  caveats <<~EOS
-    Notes for the first installation:
-      - Homebrew's trust prompt (brew trust cramleo234/tap) is standard for
-        third-party taps and only needs to be accepted once.
-      - Lernzeit is not notarized. If macOS blocks the first launch, allow it under:
-        System Settings → Privacy & Security → "Open Anyway"
-  EOS
 
   zap trash: [
     "~/Library/Application Support/Lernzeit",
@@ -26,4 +18,12 @@ cask "lernzeit" do
     "~/Library/Preferences/com.cramleo.Lernzeit.plist",
     "~/Library/Preferences/com.cramleo.Lernzeit.shared.plist",
   ]
+
+  caveats <<~EOS
+    Notes for the first installation:
+      - Homebrew's trust prompt (brew trust cramleo234/tap) is standard for
+        third-party taps and only needs to be accepted once.
+      - Lernzeit is not notarized. If macOS blocks the first launch, allow it under:
+        System Settings → Privacy & Security → "Open Anyway"
+  EOS
 end
