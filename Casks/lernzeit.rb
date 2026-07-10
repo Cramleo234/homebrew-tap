@@ -1,10 +1,10 @@
 cask "lernzeit" do
-  version "2.3.2"
-  sha256 "92a9687a182b8a934d33a9dfe62c356e73d8229dcc9ac19a39352c764433630a"
+  version "2.4.0"
+  sha256 "8a7f8041e1e639ae4437e7c5aaed0af17e7f0d3b80ec8059bee01ef9cc59f4da"
 
   url "https://github.com/Cramleo234/Lernzeit/releases/download/v#{version}/Lernzeit-#{version}.zip"
   name "Lernzeit"
-  desc "Minimalistische Lern-Timer-App für macOS mit modernem Glas-Design"
+  desc "Minimalist study timer for macOS with a modern translucent interface"
   homepage "https://github.com/Cramleo234/Lernzeit"
 
   depends_on macos: :tahoe
@@ -12,12 +12,11 @@ cask "lernzeit" do
   app "Lernzeit.app"
 
   caveats <<~EOS
-    Hinweise zur ersten Installation:
-      - Die Homebrew-Vertrauensabfrage (brew trust cramleo234/tap) ist bei
-        allen Taps außerhalb von homebrew/core Standard und nur einmal nötig.
-      - Lernzeit ist nicht notarisiert. Falls macOS den ersten Start
-        blockiert, erlaube die App selbst unter:
-        Systemeinstellungen → Datenschutz & Sicherheit → "Dennoch öffnen"
+    Notes for the first installation:
+      - Homebrew's trust prompt (brew trust cramleo234/tap) is standard for
+        third-party taps and only needs to be accepted once.
+      - Lernzeit is not notarized. If macOS blocks the first launch, allow it under:
+        System Settings → Privacy & Security → "Open Anyway"
   EOS
 
   zap trash: [
