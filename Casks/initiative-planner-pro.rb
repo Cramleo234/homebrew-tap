@@ -1,6 +1,6 @@
 cask "initiative-planner-pro" do
-  version "0.9.0"
-  sha256 "441d300bf84903edd84eb6742cf4e2583152a9c87cb9ca50b3968d6b70b5b793"
+  version "1.0.0"
+  sha256 "d85c2a1370417c6351046d36738ab606eea01c7e7f49d55d1d64e9396b712234"
 
   # Cramleo234 anpassen, sobald das Release-Repo existiert.
   url "https://github.com/Cramleo234/initiative-planner-pro/releases/download/v#{version}/InitiativePlannerPro-#{version}.dmg"
