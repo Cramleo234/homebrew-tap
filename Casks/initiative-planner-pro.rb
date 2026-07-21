@@ -21,7 +21,6 @@ cask "initiative-planner-pro" do
     über den Import (Markdown-Dateien/Ordner) in die App laden.
 
     Die App ist derzeit nicht notarisiert. Beim ersten Start ggf.:
-    Rechtsklick auf die App → „Öffnen“ — oder Installation mit:
-      brew install --cask --no-quarantine Cramleo234/tap/initiative-planner-pro
+    Rechtsklick auf die App → „Öffnen“
   EOS
 end
