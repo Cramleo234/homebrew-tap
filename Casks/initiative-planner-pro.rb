@@ -17,6 +17,12 @@ cask "initiative-planner-pro" do
   ]
 
   caveats <<~EOS
+    Installation bei Homebrew 6 oder neuer (Taps von Drittanbietern muessen
+    freigegeben werden):
+      brew tap Cramleo234/tap
+      brew trust Cramleo234/tap
+      brew install --cask initiative-planner-pro
+
     Die App wird ohne Monsterdaten ausgeliefert — eigene Sammlungen lassen sich
     über den Import (Markdown-Dateien/Ordner) in die App laden.
 
